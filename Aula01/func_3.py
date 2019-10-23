@@ -5,10 +5,13 @@ def wabbbajack(stuff):
     elif isinstance(stuff, str) :
         return len(stuff)
     else:
-        "Sorry, that’s not a float or string"
+        return "Sorry, that’s not a float or string"
 
 
 print(wabbbajack(1.2))
+print(isinstance(wabbbajack(1.2), str))
 print(wabbbajack(5))
-print(wabbbajack("HAHAHAHAHADJhajwdhabjdbajn"))
+print(isinstance(wabbbajack(5), str))
+print(wabbbajack("HAHAHAHAHADJhajwdhabjdbajn")) 
+print(wabbbajack([1,2]))
 

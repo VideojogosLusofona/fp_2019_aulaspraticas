@@ -1,7 +1,7 @@
-def cinco(num):
-    return num == 5
+def dez(num):
+    return num == 10
 
-print(cinco(5))
-print(cinco(10))
-print(cinco(True))
+print(dez(5))
+print(dez(10))
+print(dez(True))
 
