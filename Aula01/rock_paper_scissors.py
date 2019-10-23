@@ -20,6 +20,7 @@ while command != "exit" :
 
 
     if command == computer:
+        print(f"computer plays " + computer)
         print("It's a tie")
     elif command == "rock":
         print(f"computer plays " + computer)
